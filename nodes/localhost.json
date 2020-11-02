@@ -117,9 +117,9 @@
     },
     "memory": {
       "swap": {
-        "cached": "472kB",
+        "cached": "1256kB",
         "total": "2097148kB",
-        "free": "2090960kB"
+        "free": "2084000kB"
       },
       "hugepages": {
         "total": "0",
@@ -128,29 +128,29 @@
         "surplus": "0"
       },
       "directmap": {
-        "4k": "118636kB",
-        "2M": "405504kB",
+        "4k": "130924kB",
+        "2M": "393216kB",
         "1G": "0kB"
       },
       "total": "488700kB",
-      "free": "9556kB",
-      "available": "255512kB",
-      "buffers": "0kB",
-      "cached": "212776kB",
-      "active": "180224kB",
-      "inactive": "145656kB",
-      "dirty": "21336kB",
+      "free": "48380kB",
+      "available": "251212kB",
+      "buffers": "2084kB",
+      "cached": "180704kB",
+      "active": "222916kB",
+      "inactive": "74632kB",
+      "dirty": "24kB",
       "writeback": "0kB",
-      "anon_pages": "112732kB",
-      "mapped": "41044kB",
-      "slab": "102296kB",
-      "slab_reclaimable": "47064kB",
-      "slab_unreclaim": "55232kB",
-      "page_tables": "6672kB",
+      "anon_pages": "113836kB",
+      "mapped": "53160kB",
+      "slab": "87632kB",
+      "slab_reclaimable": "34348kB",
+      "slab_unreclaim": "53284kB",
+      "page_tables": "10252kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "2341496kB",
-      "committed_as": "492360kB",
+      "committed_as": "2236596kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "0kB",
       "vmalloc_chunk": "0kB",
@@ -302,16 +302,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "348",
-              "packets": "4",
+              "bytes": "1421",
+              "packets": "14",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "348",
-              "packets": "4",
+              "bytes": "1421",
+              "packets": "14",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -320,18 +320,18 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "2084252",
-              "packets": "26588",
+              "bytes": "2962926",
+              "packets": "36970",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "165380382",
-              "packets": "119662",
+              "bytes": "189265228",
+              "packets": "143170",
               "errors": "0",
-              "drop": "4683",
+              "drop": "6697",
               "overrun": "0"
             }
           }
@@ -350,10 +350,10 @@
     "platform": "centos",
     "platform_version": "8.0.1905",
     "platform_family": "rhel",
-    "uptime_seconds": 9362,
-    "uptime": "2 hours 36 minutes 02 seconds",
-    "idletime_seconds": 9254,
-    "idletime": "2 hours 34 minutes 14 seconds",
+    "uptime_seconds": 13390,
+    "uptime": "3 hours 43 minutes 10 seconds",
+    "idletime_seconds": 13227,
+    "idletime": "3 hours 40 minutes 27 seconds",
     "dmi": {
       "dmidecode_version": "3.2",
       "smbios_version": "2.8",
@@ -518,6 +518,10 @@
           "version": "2.28.",
           "description": "GNU C Library (GNU libc) stable release version 2.28."
         }
+      },
+      "perl": {
+        "version": "5.26.3",
+        "archname": "x86_64-linux-thread-multi"
       },
       "ruby": {
         "platform": "x86_64-linux",
@@ -688,7 +692,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 3565,
+      "_AVPHYS_PAGES": 11772,
       "_NPROCESSORS_CONF": 1,
       "_NPROCESSORS_ONLN": 1,
       "_PHYS_PAGES": 122175,
@@ -999,12 +1003,12 @@
         },
         "/dev/vda1": {
           "kb_size": "10474496",
-          "kb_used": "4107568",
-          "kb_available": "6366928",
+          "kb_used": "4172488",
+          "kb_available": "6302008",
           "percent_used": "40%",
           "total_inodes": "5242368",
-          "inodes_used": "86670",
-          "inodes_available": "5155698",
+          "inodes_used": "91209",
+          "inodes_available": "5151159",
           "inodes_percent_used": "2%",
           "fs_type": "xfs",
           "mount_options": [
@@ -1262,12 +1266,12 @@
         },
         "/run": {
           "kb_size": "244348",
-          "kb_used": "3440",
-          "kb_available": "240908",
+          "kb_used": "3456",
+          "kb_available": "240892",
           "percent_used": "2%",
           "total_inodes": "61087",
-          "inodes_used": "407",
-          "inodes_available": "60680",
+          "inodes_used": "416",
+          "inodes_available": "60671",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1305,12 +1309,12 @@
         },
         "/": {
           "kb_size": "10474496",
-          "kb_used": "4107568",
-          "kb_available": "6366928",
+          "kb_used": "4172488",
+          "kb_available": "6302008",
           "percent_used": "40%",
           "total_inodes": "5242368",
-          "inodes_used": "86670",
-          "inodes_available": "5155698",
+          "inodes_used": "91209",
+          "inodes_available": "5151159",
           "inodes_percent_used": "2%",
           "fs_type": "xfs",
           "mount_options": [
@@ -1768,13 +1772,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "244348",
-          "kb_used": "3440",
-          "kb_available": "240908",
+          "kb_used": "3456",
+          "kb_available": "240892",
           "percent_used": "2%",
           "mount": "/run",
           "total_inodes": "61087",
-          "inodes_used": "407",
-          "inodes_available": "60680",
+          "inodes_used": "416",
+          "inodes_available": "60671",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1809,13 +1813,13 @@
         "/dev/vda1,/": {
           "device": "/dev/vda1",
           "kb_size": "10474496",
-          "kb_used": "4107568",
-          "kb_available": "6366928",
+          "kb_used": "4172488",
+          "kb_available": "6302008",
           "percent_used": "40%",
           "mount": "/",
           "total_inodes": "5242368",
-          "inodes_used": "86670",
-          "inodes_available": "5155698",
+          "inodes_used": "91209",
+          "inodes_available": "5151159",
           "inodes_percent_used": "2%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2285,7 +2289,7 @@
       "search-state-factory": "/usr/local/share/factory/var",
       "search-configuration": "/root/.config"
     },
-    "ohai_time": 1604335843.316544,
+    "ohai_time": 1604339871.2007143,
     "packages": {
       "cronie": {
         "epoch": "0",
@@ -2833,6 +2837,13 @@
         "installdate": "1572028671",
         "arch": "x86_64"
       },
+      "apr-util": {
+        "epoch": "0",
+        "version": "1.6.1",
+        "release": "6.el8",
+        "installdate": "1604335871",
+        "arch": "x86_64"
+      },
       "libselinux-utils": {
         "epoch": "0",
         "version": "2.8",
@@ -2840,11 +2851,25 @@
         "installdate": "1572028671",
         "arch": "x86_64"
       },
+      "httpd-filesystem": {
+        "epoch": "0",
+        "version": "2.4.37",
+        "release": "21.module_el8.2.0+494+1df74eae",
+        "installdate": "1604335877",
+        "arch": "noarch"
+      },
       "libsss_nss_idmap": {
         "epoch": "0",
         "version": "2.0.0",
         "release": "43.el8",
         "installdate": "1572028671",
+        "arch": "x86_64"
+      },
+      "perl-libs": {
+        "epoch": "4",
+        "version": "5.26.3",
+        "release": "416.el8",
+        "installdate": "1604336323",
         "arch": "x86_64"
       },
       "ncurses": {
@@ -2854,11 +2879,25 @@
         "installdate": "1572028672",
         "arch": "x86_64"
       },
+      "perl-Text-ParseWords": {
+        "epoch": "0",
+        "version": "3.30",
+        "release": "395.el8",
+        "installdate": "1604336325",
+        "arch": "noarch"
+      },
       "libdnet": {
         "epoch": "0",
         "version": "1.12",
         "release": "26.el8",
         "installdate": "1572028672",
+        "arch": "x86_64"
+      },
+      "perl-macros": {
+        "epoch": "4",
+        "version": "5.26.3",
+        "release": "416.el8",
+        "installdate": "1604336330",
         "arch": "x86_64"
       },
       "ipcalc": {
@@ -2868,6 +2907,13 @@
         "installdate": "1572028672",
         "arch": "x86_64"
       },
+      "perl-Unicode-Normalize": {
+        "epoch": "0",
+        "version": "1.25",
+        "release": "396.el8",
+        "installdate": "1604336331",
+        "arch": "x86_64"
+      },
       "libssh": {
         "epoch": "0",
         "version": "0.8.5",
@@ -2875,11 +2921,25 @@
         "installdate": "1572028672",
         "arch": "x86_64"
       },
+      "perl-constant": {
+        "epoch": "0",
+        "version": "1.33",
+        "release": "396.el8",
+        "installdate": "1604336333",
+        "arch": "noarch"
+      },
       "libkcapi-hmaccalc": {
         "epoch": "0",
         "version": "1.1.1",
         "release": "16_1.el8",
         "installdate": "1572028672",
+        "arch": "x86_64"
+      },
+      "perl-MIME-Base64": {
+        "epoch": "0",
+        "version": "3.15",
+        "release": "396.el8",
+        "installdate": "1604336336",
         "arch": "x86_64"
       },
       "openssl": {
@@ -2889,11 +2949,25 @@
         "installdate": "1572028672",
         "arch": "x86_64"
       },
+      "perl-Digest": {
+        "epoch": "0",
+        "version": "1.17",
+        "release": "395.el8",
+        "installdate": "1604336337",
+        "arch": "noarch"
+      },
       "cracklib": {
         "epoch": "0",
         "version": "2.9.6",
         "release": "15.el8",
         "installdate": "1572028672",
+        "arch": "x86_64"
+      },
+      "perl-TermReadKey": {
+        "epoch": "0",
+        "version": "2.37",
+        "release": "7.el8",
+        "installdate": "1604336339",
         "arch": "x86_64"
       },
       "procps-ng": {
@@ -2903,12 +2977,26 @@
         "installdate": "1572028673",
         "arch": "x86_64"
       },
+      "perl-Term-Cap": {
+        "epoch": "0",
+        "version": "1.17",
+        "release": "395.el8",
+        "installdate": "1604336341",
+        "arch": "noarch"
+      },
       "grub2-tools-minimal": {
         "epoch": "1",
         "version": "2.02",
         "release": "66.el8",
         "installdate": "1572028673",
         "arch": "x86_64"
+      },
+      "perl-Getopt-Long": {
+        "epoch": "1",
+        "version": "2.50",
+        "release": "4.el8",
+        "installdate": "1604336344",
+        "arch": "noarch"
       },
       "rpm": {
         "epoch": "0",
@@ -2917,12 +3005,26 @@
         "installdate": "1572028673",
         "arch": "x86_64"
       },
+      "perl-HTTP-Tiny": {
+        "epoch": "0",
+        "version": "0.074",
+        "release": "1.el8",
+        "installdate": "1604336346",
+        "arch": "noarch"
+      },
       "glib2": {
         "epoch": "0",
         "version": "2.56.4",
         "release": "1.el8",
         "installdate": "1572028674",
         "arch": "x86_64"
+      },
+      "emacs-filesystem": {
+        "epoch": "1",
+        "version": "26.1",
+        "release": "5.el8",
+        "installdate": "1604336347",
+        "arch": "noarch"
       },
       "systemd-libs": {
         "epoch": "0",
@@ -4443,6 +4545,209 @@
         "installdate": "1604334461",
         "arch": "x86_64"
       },
+      "apr": {
+        "epoch": "0",
+        "version": "1.6.3",
+        "release": "9.el8",
+        "installdate": "1604335870",
+        "arch": "x86_64"
+      },
+      "apr-util-openssl": {
+        "epoch": "0",
+        "version": "1.6.1",
+        "release": "6.el8",
+        "installdate": "1604335871",
+        "arch": "x86_64"
+      },
+      "httpd-tools": {
+        "epoch": "0",
+        "version": "2.4.37",
+        "release": "21.module_el8.2.0+494+1df74eae",
+        "installdate": "1604335871",
+        "arch": "x86_64"
+      },
+      "centos-logos-httpd": {
+        "epoch": "0",
+        "version": "80.5",
+        "release": "2.el8",
+        "installdate": "1604335872",
+        "arch": "noarch"
+      },
+      "mod_http2": {
+        "epoch": "0",
+        "version": "1.11.3",
+        "release": "3.module_el8.2.0+486+c01050f0.1",
+        "installdate": "1604335877",
+        "arch": "x86_64"
+      },
+      "perl-Exporter": {
+        "epoch": "0",
+        "version": "5.72",
+        "release": "396.el8",
+        "installdate": "1604336322",
+        "arch": "noarch"
+      },
+      "perl-Carp": {
+        "epoch": "0",
+        "version": "1.42",
+        "release": "396.el8",
+        "installdate": "1604336324",
+        "arch": "noarch"
+      },
+      "perl-parent": {
+        "epoch": "1",
+        "version": "0.237",
+        "release": "1.el8",
+        "installdate": "1604336325",
+        "arch": "noarch"
+      },
+      "git-core": {
+        "epoch": "0",
+        "version": "2.18.4",
+        "release": "2.el8_2",
+        "installdate": "1604336327",
+        "arch": "x86_64"
+      },
+      "perl-Term-ANSIColor": {
+        "epoch": "0",
+        "version": "4.06",
+        "release": "396.el8",
+        "installdate": "1604336330",
+        "arch": "noarch"
+      },
+      "perl-Errno": {
+        "epoch": "0",
+        "version": "1.28",
+        "release": "416.el8",
+        "installdate": "1604336330",
+        "arch": "x86_64"
+      },
+      "perl-Text-Tabs+Wrap": {
+        "epoch": "0",
+        "version": "2013.0523",
+        "release": "395.el8",
+        "installdate": "1604336331",
+        "arch": "noarch"
+      },
+      "perl-File-Path": {
+        "epoch": "0",
+        "version": "2.15",
+        "release": "2.el8",
+        "installdate": "1604336332",
+        "arch": "noarch"
+      },
+      "perl-PathTools": {
+        "epoch": "0",
+        "version": "3.74",
+        "release": "1.el8",
+        "installdate": "1604336332",
+        "arch": "x86_64"
+      },
+      "perl-threads": {
+        "epoch": "1",
+        "version": "2.21",
+        "release": "2.el8",
+        "installdate": "1604336333",
+        "arch": "x86_64"
+      },
+      "perl-interpreter": {
+        "epoch": "4",
+        "version": "5.26.3",
+        "release": "416.el8",
+        "installdate": "1604336336",
+        "arch": "x86_64"
+      },
+      "perl-IO-Socket-IP": {
+        "epoch": "0",
+        "version": "0.39",
+        "release": "5.el8",
+        "installdate": "1604336337",
+        "arch": "noarch"
+      },
+      "perl-File-Temp": {
+        "epoch": "0",
+        "version": "0.230.600",
+        "release": "1.el8",
+        "installdate": "1604336337",
+        "arch": "noarch"
+      },
+      "perl-Digest-MD5": {
+        "epoch": "0",
+        "version": "2.55",
+        "release": "396.el8",
+        "installdate": "1604336338",
+        "arch": "x86_64"
+      },
+      "perl-Error": {
+        "epoch": "1",
+        "version": "0.17025",
+        "release": "2.el8",
+        "installdate": "1604336339",
+        "arch": "noarch"
+      },
+      "perl-Data-Dumper": {
+        "epoch": "0",
+        "version": "2.167",
+        "release": "399.el8",
+        "installdate": "1604336339",
+        "arch": "x86_64"
+      },
+      "perl-Storable": {
+        "epoch": "1",
+        "version": "3.11",
+        "release": "3.el8",
+        "installdate": "1604336340",
+        "arch": "x86_64"
+      },
+      "perl-Mozilla-CA": {
+        "epoch": "0",
+        "version": "20160104",
+        "release": "7.el8",
+        "installdate": "1604336341",
+        "arch": "noarch"
+      },
+      "perl-Pod-Simple": {
+        "epoch": "1",
+        "version": "3.35",
+        "release": "395.el8",
+        "installdate": "1604336343",
+        "arch": "noarch"
+      },
+      "perl-podlators": {
+        "epoch": "0",
+        "version": "4.11",
+        "release": "1.el8",
+        "installdate": "1604336344",
+        "arch": "noarch"
+      },
+      "perl-Pod-Perldoc": {
+        "epoch": "0",
+        "version": "3.28",
+        "release": "396.el8",
+        "installdate": "1604336345",
+        "arch": "noarch"
+      },
+      "perl-IO-Socket-SSL": {
+        "epoch": "0",
+        "version": "2.066",
+        "release": "4.el8",
+        "installdate": "1604336346",
+        "arch": "noarch"
+      },
+      "perl-URI": {
+        "epoch": "0",
+        "version": "1.73",
+        "release": "3.el8",
+        "installdate": "1604336347",
+        "arch": "noarch"
+      },
+      "perl-Git": {
+        "epoch": "0",
+        "version": "2.18.4",
+        "release": "2.el8_2",
+        "installdate": "1604336347",
+        "arch": "noarch"
+      },
       "kernel-core": {
         "epoch": "0",
         "version": "4.18.0",
@@ -4989,6 +5294,13 @@
         "installdate": "1572028671",
         "arch": "x86_64"
       },
+      "apr-util-bdb": {
+        "epoch": "0",
+        "version": "1.6.1",
+        "release": "6.el8",
+        "installdate": "1604335871",
+        "arch": "x86_64"
+      },
       "iptables-ebtables": {
         "epoch": "0",
         "version": "1.8.2",
@@ -4996,11 +5308,25 @@
         "installdate": "1572028671",
         "arch": "x86_64"
       },
+      "mailcap": {
+        "epoch": "0",
+        "version": "2.1.48",
+        "release": "3.el8",
+        "installdate": "1604335872",
+        "arch": "noarch"
+      },
       "gawk": {
         "epoch": "0",
         "version": "4.2.1",
         "release": "1.el8",
         "installdate": "1572028671",
+        "arch": "x86_64"
+      },
+      "httpd": {
+        "epoch": "0",
+        "version": "2.4.37",
+        "release": "21.module_el8.2.0+494+1df74eae",
+        "installdate": "1604335879",
         "arch": "x86_64"
       },
       "libsysfs": {
@@ -5010,6 +5336,13 @@
         "installdate": "1572028672",
         "arch": "x86_64"
       },
+      "perl-Scalar-List-Utils": {
+        "epoch": "3",
+        "version": "1.49",
+        "release": "2.el8",
+        "installdate": "1604336324",
+        "arch": "x86_64"
+      },
       "numactl-libs": {
         "epoch": "0",
         "version": "2.0.12",
@@ -5017,11 +5350,25 @@
         "installdate": "1572028672",
         "arch": "x86_64"
       },
+      "git-core-doc": {
+        "epoch": "0",
+        "version": "2.18.4",
+        "release": "2.el8_2",
+        "installdate": "1604336329",
+        "arch": "noarch"
+      },
       "libfastjson": {
         "epoch": "0",
         "version": "0.99.8",
         "release": "2.el8",
         "installdate": "1572028672",
+        "arch": "x86_64"
+      },
+      "perl-Socket": {
+        "epoch": "4",
+        "version": "2.027",
+        "release": "3.el8",
+        "installdate": "1604336331",
         "arch": "x86_64"
       },
       "libxkbcommon": {
@@ -5031,11 +5378,25 @@
         "installdate": "1572028672",
         "arch": "x86_64"
       },
+      "perl-IO": {
+        "epoch": "0",
+        "version": "1.38",
+        "release": "416.el8",
+        "installdate": "1604336332",
+        "arch": "x86_64"
+      },
       "libcurl": {
         "epoch": "0",
         "version": "7.61.1",
         "release": "8.el8",
         "installdate": "1572028672",
+        "arch": "x86_64"
+      },
+      "perl-threads-shared": {
+        "epoch": "0",
+        "version": "1.58",
+        "release": "2.el8",
+        "installdate": "1604336333",
         "arch": "x86_64"
       },
       "libdb-utils": {
@@ -5045,11 +5406,25 @@
         "installdate": "1572028672",
         "arch": "x86_64"
       },
+      "perl-Time-Local": {
+        "epoch": "1",
+        "version": "1.280",
+        "release": "1.el8",
+        "installdate": "1604336337",
+        "arch": "noarch"
+      },
       "elfutils-libs": {
         "epoch": "0",
         "version": "0.174",
         "release": "6.el8",
         "installdate": "1572028672",
+        "arch": "x86_64"
+      },
+      "perl-Net-SSLeay": {
+        "epoch": "0",
+        "version": "1.88",
+        "release": "1.el8",
+        "installdate": "1604336338",
         "arch": "x86_64"
       },
       "gettext-libs": {
@@ -5059,11 +5434,25 @@
         "installdate": "1572028673",
         "arch": "x86_64"
       },
+      "perl-Pod-Escapes": {
+        "epoch": "1",
+        "version": "1.07",
+        "release": "395.el8",
+        "installdate": "1604336340",
+        "arch": "noarch"
+      },
       "libtirpc": {
         "epoch": "0",
         "version": "1.1.4",
         "release": "3.el8",
         "installdate": "1572028673",
+        "arch": "x86_64"
+      },
+      "perl-Encode": {
+        "epoch": "4",
+        "version": "2.97",
+        "release": "3.el8",
+        "installdate": "1604336342",
         "arch": "x86_64"
       },
       "device-mapper": {
@@ -5073,6 +5462,13 @@
         "installdate": "1572028673",
         "arch": "x86_64"
       },
+      "perl-Pod-Usage": {
+        "epoch": "4",
+        "version": "1.69",
+        "release": "395.el8",
+        "installdate": "1604336345",
+        "arch": "noarch"
+      },
       "libmount": {
         "epoch": "0",
         "version": "2.32.1",
@@ -5080,11 +5476,25 @@
         "installdate": "1572028673",
         "arch": "x86_64"
       },
+      "perl-libnet": {
+        "epoch": "0",
+        "version": "3.11",
+        "release": "3.el8",
+        "installdate": "1604336346",
+        "arch": "noarch"
+      },
       "dbus-tools": {
         "epoch": "1",
         "version": "1.12.8",
         "release": "7.el8",
         "installdate": "1572028674",
+        "arch": "x86_64"
+      },
+      "git": {
+        "epoch": "0",
+        "version": "2.18.4",
+        "release": "2.el8_2",
+        "installdate": "1604336348",
         "arch": "x86_64"
       },
       "libblkid": {
@@ -5177,13 +5587,23 @@
     "name": "localhost",
     "chef_environment": "_default",
     "recipes": [
-
+      "apache",
+      "apache::default",
+      "apache::server"
     ],
     "expanded_run_list": [
-
+      "apache::default"
     ],
     "roles": [
 
-    ]
-  }
+    ],
+    "cookbooks": {
+      "apache": {
+        "version": "0.1.0"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[apache]"
+  ]
 }
